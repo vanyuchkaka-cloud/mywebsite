@@ -1,11 +1,184 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Hoşgeldiniz!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jupiter Network & Security Limited</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        background: url("background.png") no-repeat center center fixed;
+        background-size: cover;
+    }
+    header {
+        background-color: rgba(10,37,64,0.85);
+        text-align: center;
+        padding: 60px 20px;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    header p {
+        font-size: 1.2em;
+        margin: 15px 0 30px;
+        color: #ddd;
+    }
+    .btn {
+        padding: 12px 25px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 5px;
+        display: inline-block;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-accent {
+        background: linear-gradient(90deg,#0ea5e9,#60a5fa);
+        color: #fff;
+        box-shadow: 0 6px 20px rgba(14,165,233,0.35);
+    }
+    .btn-accent:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(14,165,233,0.45);
+    }
+    section {
+        max-width: 1100px;
+        margin: 60px auto;
+        padding: 40px;
+        background-color: rgba(0,0,0,0.6);
+        border-radius: 15px;
+    }
+    h2 {
+        text-align: center;
+        color: #ffcc00;
+        margin-bottom: 30px;
+    }
+    .card {
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 15px 0;
+    }
+    .card h5 {
+        margin-top: 0;
+        color: #0ea5e9;
+    }
+    .list-check li {
+        margin: 8px 0;
+        list-style: none;
+        position: relative;
+        padding-left: 25px;
+    }
+    .list-check li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: #10b981;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+    @media (max-width:768px){
+        section { margin: 30px 10px; padding: 20px;}
+        header div { display: flex; flex-direction: column; align-items: center;}
+    }
+</style>
 </head>
 <body>
-    <h1>Merhaba, bu benim web sitem!</h1>
-    <p>Site başarıyla yayında.</p>
+
+<header>
+    <h1>Jupiter Network & Security Limited</h1>
+    <p>Secure • Scalable • Supported — Modern IT, Networks & Cybersecurity for Growing Businesses</p>
+    <div style="margin-top: 20px;">
+        <a href="#who" class="btn btn-accent">Who We Are</a>
+        <a href="#services" class="btn btn-accent">What We Do</a>
+        <a href="#approach" class="btn btn-accent">Our Approach</a>
+        <a href="#contact" class="btn btn-accent">Contact Us</a>
+    </div>
+</header>
+
+<section id="who">
+    <h2>Who We Are</h2>
+    <p>
+        Jupiter Network & Security Limited is a UK-based IT company providing enterprise-grade networking, systems administration, and cybersecurity services. 
+        We combine deep hands-on engineering with clear governance, documentation, and client training to ensure reliable, secure, and future-proof IT infrastructures. 
+    </p>
+    <p>
+        Our team of certified engineers specializes in designing, implementing, and managing complex IT environments for growing businesses, retail chains, and multi-site enterprises. 
+        With a customer-first mindset, we focus on proactive maintenance, security hardening, and operational efficiency. Our mission is to empower businesses with IT systems that are not only functional but scalable and safe.
+    </p>
+    <p><strong>Languages:</strong> Kazakh, Russian, English, Turkish</p>
+    <p><strong>Certifications:</strong> MCP, MCSA (Windows Server), ITIL Foundation, COBIT v5, Juniper JRE/JIR/IJWL/AJWL</p>
+    <div class="card">
+        <h5>Systems & Networks</h5>
+        <p>Windows Server, AD/GPO, virtualization, SQL jobs, LAN/WAN, Wi-Fi, SD-WAN. We ensure seamless connectivity and efficient network performance across all your sites.</p>
+    </div>
+    <div class="card">
+        <h5>Security & Compliance</h5>
+        <p>Vulnerability assessments, firewalls/IDS-IPS, endpoint protection, logging, and incident response. Our security measures are proactive and tailored to meet regulatory compliance.</p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>What We Do</h2>
+    <div class="card">
+        <h5>Network Architecture & Implementation</h5>
+        <p>We design and deploy robust LAN/WAN, Wi-Fi, and SD-WAN networks with secure remote access. Our engineers select the best hardware and topology for high-availability and scalability, ensuring seamless operations for multi-site businesses.</p>
+    </div>
+    <div class="card">
+        <h5>Systems & Server Management</h5>
+        <p>We manage Windows Servers, Active Directory, Hyper-V/VMware environments, SQL servers, patching, and backups. Our approach guarantees uptime, consistency, and easy maintenance for mission-critical applications.</p>
+    </div>
+    <div class="card">
+        <h5>Cybersecurity & Risk</h5>
+        <p>We provide vulnerability assessments, firewall/IDS-IPS configurations, endpoint security, and incident response plans. Our goal is to reduce risk, monitor threats proactively, and maintain compliance with industry standards.</p>
+    </div>
+    <div class="card">
+        <h5>Cloud & Hybrid</h5>
+        <p>We optimize Microsoft 365 and Azure environments, plan migrations, manage identity, and control costs. Hybrid solutions allow seamless integration between on-premises and cloud services for flexibility and efficiency.</p>
+    </div>
+    <div class="card">
+        <h5>Retail & In-Store IT</h5>
+        <p>We support POS rollouts, back-office standardization, multi-country operations, and data flows. Our experts ensure new store openings are smooth, technology operations are stable, and SLAs are consistently met.</p>
+    </div>
+    <div class="card">
+        <h5>Managed Services & Support</h5>
+        <p>We provide 1st–3rd line support, proactive monitoring, remote assistance, and scheduled maintenance. Continuous improvement is delivered through knowledge transfer, reporting, and SLA-based operations.</p>
+    </div>
+</section>
+
+<section id="approach">
+    <h2>Our Approach</h2>
+    <p>
+        At Jupiter Network & Security, we align technology with your business objectives. Our methodology ensures reliability, transparency, and proactive communication at every stage. 
+        We partner with clients to create IT infrastructures that are scalable, secure, and easy to manage.
+    </p>
+    <ul class="list-check">
+        <li>Pragmatic designs, peer-reviewed plans, and production-ready runbooks</li>
+        <li>Change control, thorough documentation, and staff training</li>
+        <li>Continuous improvement driven by metrics, monitoring, and feedback</li>
+        <li>Proactive risk assessment to prevent downtime and improve security posture</li>
+        <li>Dedicated customer support ensuring responsive and personalized service</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Get in touch with us — we’ll respond within one business day.</p>
+    <div class="card">
+        <p><strong>Address:</strong> 60 Millmead Business Centre, Mill Mead Road, London, England, N17 9QU</p>
+        <p><strong>Phone:</strong> +44 7706 989 461</p>
+        <p><strong>Email:</strong> <a href="mailto:gulnara.basusta@gmail.com">gulnara.basusta@gmail.com</a></p>
+    </div>
+</section>
+
+<footer>
+    <!-- Footer boş bırakıldı -->
+</footer>
+
 </body>
 </html>
